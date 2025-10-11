@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar y ejecutar Ada",
+      "type": "shell",
+      "command": "gprbuild -P Lenguajes.gpr; if ($?) { .\\bin\\main.exe }",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+project Lenguajes is
+   -- Directorios donde se encuentran los archivos fuente y destino
+   for Source_Dirs use ("src");
+   for Object_Dir  use "obj";
+   for Exec_Dir    use "bin";
+
+   -- Programa principal
+   for Main use ("main.adb");
+end Lenguajes;
