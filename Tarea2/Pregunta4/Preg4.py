@@ -73,7 +73,7 @@ def fab_iterative(n: int, a: int, b: int) -> int:
     return dp[n]
 
 if __name__ == "__main__":
-    # ejemplos de uso, pocos y directos para probar que funciona
+    # ejemplos de uso para probar funcionamiento
     # ejemplo: caso que equivale a Fibonacci clásico generalizado
     a, b = 2, 1
     n = 10
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     print("  tail-recursive   :", fab_tail(n, a, b))
     print("  iterativa        :", fab_iterative(n, a, b))
 
-    # ejemplo usando X,Y,Z (descomentar para probar)
+    # ejemplo usando X,Y,Z 
     # X, Y, Z = 7, 11, 5
     # a, b = compute_alpha_beta(X, Y, Z)
     # print(f"\nCon X={X}, Y={Y}, Z={Z} -> a={a}, b={b}")
